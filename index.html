@@ -44,7 +44,8 @@
         <button class="btn">Deposit</button>
     </main>
     <script>
-        document.addEventListener("DOMContentLoaded", function(event) { 
+        document.addEventListener("DOMContentLoaded", function(event) {
+            this.dataLayer = [];
             this.dataLayer.push({
                 event: 'PaymentGO_kosh'
             })
